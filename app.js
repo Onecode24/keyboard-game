@@ -10,7 +10,6 @@ function makeRandom(){
     placeScore(val);
      var hold=makeRandom()
  allButton[hold].classList.add('jiggle');
- console.log(hold);
  allButton[hold].addEventListener('click',()=>{
      allButton[hold].classList.remove('jiggle');
      boucle();

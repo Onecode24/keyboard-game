@@ -95,3 +95,25 @@ h1 {
 .score{
   margin-left: 75px;
 }
+@media screen and (max-width:900px){
+  body{
+    zoom:1;
+  }
+  .keyboard{
+    margin-left: 500px;
+    width: 800px;
+  }
+  .key{
+  font-size: 1rem;
+  font-weight: bold;
+  justify-content: center;
+  min-width: 30px;
+  align-items: center;
+  padding: 18px 24px;
+  height: 30px;
+  box-sizing: border-box;
+  }
+  .row{
+    width:800px;
+  }
+}
